@@ -1,0 +1,10 @@
+# Ignorera virtual environments
+venv/
+venv-marketing-ml/
+
+# Ignorera Python-cache
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignorera systemfiler (för macOS)
+.DS_Store

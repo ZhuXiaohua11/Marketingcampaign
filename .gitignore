@@ -1,1 +1,20 @@
-venv-marketing-ml/
+# Python
+__pycache__/            # Python-kompilatorns cache – ska inte med
+*.py[cod]               # .pyc, .pyo och .pyd – genererade filer, ignoreras
+*.so                    # Kompilerade moduler (t.ex. C-extensioner) – ignoreras
+
+# Jupyter checkpoints
+.ipynb_checkpoints/     # Automatisk checkpoint-fil från Jupyter – onödigt att spara
+
+# VS Code
+.vscode/                # Inställningsfiler från VS Code – kan ignoreras
+
+# Virtuell miljö
+venv/
+.env/
+env/
+.venv/
+venv-marketing-ml/      # Alla vanliga namn på virtuella miljöer – ska alltid ignoreras
+
+# Mac
+.DS_Store               # Skapas automatiskt av macOS – onödig i repo
